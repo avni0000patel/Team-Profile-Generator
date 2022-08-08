@@ -2,31 +2,31 @@ const Employee = require("../lib/Employee.js");
 console.log(Employee);
 
 describe("Employee", () => {
-    const employeeName = "Emmy";
-    const employeeId = "1";
-    const employeeEmail = "emmy@gmail.com";
-    const employeeRole = "Employee";
+    const name = "Emmy";
+    const id = "1";
+    const email = "emmy@gmail.com";
+    const role = "Employee";
 
-    const employee = new Employee(employeeName, employeeId, employeeEmail);
+    const employee = new Employee(name, id, email);
     console.log(employee);
 
-    it("Should return the employeeName", () => {
-        expect(employee.getName()).toEqual(employeeName);
+    it("Should return the name", () => {
+        expect(employee.getName()).toEqual(name);
         console.log(employee.getName());
     });
 
-    it("Should return the employeeId", () => {
-        expect(employee.getId()).toEqual(employeeId);
+    it("Should return the id", () => {
+        expect(employee.getId()).toEqual(id);
         console.log(employee.getId());
     });
 
-    it("Should return the employeeEmail", () => {
-        expect(employee.getEmail()).toEqual(employeeEmail);
+    it("Should return the email", () => {
+        expect(employee.getEmail()).toEqual(email);
         console.log(employee.getEmail());
     });
 
     it("Should return the role", () => {
-        expect(employee.getRole()).toEqual(employeeRole);
+        expect(employee.getRole()).toEqual(role);
         console.log(employee.getRole());
     });
 });
