@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/avni0000patel/Team-Profile-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "D": "^1.0.0",
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.3"
   }
 }
