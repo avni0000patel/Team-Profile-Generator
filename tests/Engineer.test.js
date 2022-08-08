@@ -2,27 +2,27 @@ const Engineer = require("../lib/Engineer.js");
 console.log(Engineer);
 
 describe("Engineer", () => {
-    const engineerName = "Brandon";
-    const engineerId = "3";
-    const engineerEmail = "brandon@gmail.com";
+    const name = "Brandon";
+    const id = "3";
+    const email = "brandon@gmail.com";
     const github = "brandon@github.com";
-    const engineerRole = "Engineer";
+    const role = "Engineer";
 
-    const engineer = new Engineer(engineerName, engineerId, engineerEmail, github);
+    const engineer = new Engineer(name, id, email, github);
     console.log(engineer);
 
-    it("Should return the engineerName", () => {
-        expect(engineer.getName()).toEqual(engineerName);
+    it("Should return the name", () => {
+        expect(engineer.getName()).toEqual(name);
         console.log(engineer.getName());
     });
 
-    it("Should return the engineerId", () => {
-        expect(engineer.getId()).toEqual(engineerId);
+    it("Should return the id", () => {
+        expect(engineer.getId()).toEqual(id);
         console.log(engineer.getId());
     });
 
-    it("Should return the managerEmail", () => {
-        expect(engineer.getEmail()).toEqual(engineerEmail);
+    it("Should return the email", () => {
+        expect(engineer.getEmail()).toEqual(email);
         console.log(engineer.getEmail());
     });
 
@@ -31,8 +31,8 @@ describe("Engineer", () => {
         console.log(engineer.getGitHub());
     });
 
-    it("Should return the managerRole", () => {
-        expect(engineer.getRole()).toEqual(engineerRole);
+    it("Should return the role", () => {
+        expect(engineer.getRole()).toEqual(role);
         console.log(engineer.getRole());
     });
 });
