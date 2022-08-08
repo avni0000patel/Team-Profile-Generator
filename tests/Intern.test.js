@@ -2,27 +2,27 @@ const Intern = require("../lib/Intern.js");
 console.log(Intern);
 
 describe("Intern", () => {
-    const internName = "Ferb";
-    const internId = "4";
-    const internEmail = "ferb@gmail.com";
+    const name = "Ferb";
+    const id = "4";
+    const email = "ferb@gmail.com";
     const school = "Siena College";
-    const internRole = "Intern";
+    const role = "Intern";
 
-    const intern = new Intern(internName, internId, internEmail, school);
+    const intern = new Intern(name, id, email, school);
     console.log(intern);
 
-    it("Should return the internName", () => {
-        expect(intern.getName()).toEqual(internName);
+    it("Should return the name", () => {
+        expect(intern.getName()).toEqual(name);
         console.log(intern.getName());
     });
 
-    it("Should return the internId", () => {
-        expect(intern.getId()).toEqual(internId);
+    it("Should return the id", () => {
+        expect(intern.getId()).toEqual(id);
         console.log(intern.getId());
     });
 
-    it("Should return the internEmail", () => {
-        expect(intern.getEmail()).toEqual(internEmail);
+    it("Should return the email", () => {
+        expect(intern.getEmail()).toEqual(email);
         console.log(intern.getEmail());
     });
 
@@ -31,8 +31,8 @@ describe("Intern", () => {
         console.log(intern.getSchool());
     });
 
-    it("Should return the internRole", () => {
-        expect(intern.getRole()).toEqual(internRole);
+    it("Should return the role", () => {
+        expect(intern.getRole()).toEqual(role);
         console.log(intern.getRole());
     });
 });
