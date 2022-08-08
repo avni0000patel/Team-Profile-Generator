@@ -2,27 +2,27 @@ const Manager = require("../lib/Manager.js");
 console.log(Manager);
 
 describe("Manager", () => {
-    const managerName = "Anna";
-    const managerId = "2";
-    const managerEmail = "anna@gmail.com";
+    const name = "Anna";
+    const id = "2";
+    const email = "anna@gmail.com";
     const officeNumber = "101";
-    const managerRole = "Manager";
+    const role = "Manager";
 
-    const manager = new Manager(managerName, managerId, managerEmail, officeNumber);
+    const manager = new Manager(name, id, email, officeNumber);
     console.log(manager);
 
-    it("Should return the managerName", () => {
-        expect(manager.getName()).toEqual(managerName);
+    it("Should return the name", () => {
+        expect(manager.getName()).toEqual(name);
         console.log(manager.getName());
     });
 
-    it("Should return the managerId", () => {
-        expect(manager.getId()).toEqual(managerId);
+    it("Should return the id", () => {
+        expect(manager.getId()).toEqual(id);
         console.log(manager.getId());
     });
 
-    it("Should return the managerEmail", () => {
-        expect(manager.getEmail()).toEqual(managerEmail);
+    it("Should return the email", () => {
+        expect(manager.getEmail()).toEqual(email);
         console.log(manager.getEmail());
     });
 
@@ -31,8 +31,8 @@ describe("Manager", () => {
         console.log(manager.getOfficeNumber());
     });
 
-    it("Should return the managerRole", () => {
-        expect(manager.getRole()).toEqual(managerRole);
+    it("Should return the role", () => {
+        expect(manager.getRole()).toEqual(role);
         console.log(manager.getRole());
     });
 });
