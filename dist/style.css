@@ -1,0 +1,13 @@
+.heading {
+    background-color: black;
+}
+
+.team {
+    color: azure;
+}
+
+.employee {
+    background-color: azure;
+    color: black;
+    text-align: center;
+}
