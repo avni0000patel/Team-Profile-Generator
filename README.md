@@ -1,5 +1,5 @@
 # Team-Profile-Generator
-In this project I have created a team profile generator. This application is a Node.js command-line application. It displays infomration about employees on a software engineering team and generates an HTML page with this infomration.
+In this project I have created a team profile generator. This application is a Node.js command-line application. It displays infomration about employees on a software engineering team and generates an HTML page with this information.
 https://github.com/avni0000patel
 ## Walkthrough Video Link
 https://drive.google.com/file/d/1d8ZwcE38XbEGxrDIzrGhAugMRxknEZzj/view?usp=sharing
