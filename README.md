@@ -5,3 +5,4 @@ https://github.com/avni0000patel
 ## Walkthrough Video Link
 https://drive.google.com/file/d/1k1Hth2IDlSKtjqVqL_yjpRqmSu76Iz3b/view
 ## Screenshot
+<img width="1434" alt="Screen Shot 2022-08-11 at 6 18 26 PM" src="https://user-images.githubusercontent.com/104175474/184252402-2e4fe79f-c475-46b0-86c4-fb463197ce1b.png">
