@@ -1,20 +1,20 @@
 {
   "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A team profile generator that includes a manager and the options to include an engineer and intern.",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avni0000patel/Team-Profile-Generator.git"
   },
-  "author": "",
+  "author": "Avni Patel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/avni0000patel/Team-Profile-Generator/issues"
