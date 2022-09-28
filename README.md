@@ -18,6 +18,17 @@ Node JS - back-end JavaScript runtime environment that runs on a JavaScript Engi
 Inquirer - a collection of common interactive command line user interfaces
 
 Jest - JavaScript testing framework designed to ensure correctness of any JavaScript codebase
+## Instructions
+Run the following:
 
+`npm init`
+
+`npm install inquirer`
+
+`npm install jest`
+
+`npm run test`
+
+`node index.js`
 ## Screenshot
 <img width="1434" alt="Screen Shot 2022-08-11 at 6 18 26 PM" src="https://user-images.githubusercontent.com/104175474/184252402-2e4fe79f-c475-46b0-86c4-fb463197ce1b.png">
