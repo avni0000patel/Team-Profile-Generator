@@ -23,6 +23,8 @@ Run the following:
 
 `npm init`
 
+`npm i`
+
 `npm install inquirer`
 
 `npm install jest`
